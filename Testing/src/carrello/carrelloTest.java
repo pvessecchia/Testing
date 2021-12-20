@@ -9,6 +9,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class carrelloTest {
+	
+	int a = 3;
+	
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
@@ -60,5 +63,6 @@ class carrelloTest {
 		assertEquals(expected, carrello.getAmount());
 		//fail("Not yet implemented");
 	}
-
+	
+	
 }
