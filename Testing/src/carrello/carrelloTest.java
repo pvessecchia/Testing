@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 class carrelloTest {
 	
 	int a = 3;
-	
+	int b;
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
